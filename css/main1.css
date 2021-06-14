@@ -1,0 +1,256 @@
+:root
+{
+    --white: #ddd;
+    --dark: #111;
+    --darkgray: #474b4f;
+    --lightGreen: #86c232;
+    --darkGreen: #61892f;
+    --transition: all 0.5s ease;
+
+
+
+}
+
+blockquote span
+{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--darkGreen);
+    font-weight: 300;
+    letter-spacing: 5px;
+    display: block;
+}
+ 
+.social-icons
+{
+    width: 350px;
+    margin: 40px auto 0 auto;
+    padding-bottom: 30px;
+}
+
+.social-icons ul a
+{
+    color: #fff;
+    font-size: 30px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: var(--transition);
+}
+
+.social-icons ul 
+{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.social-icons ul a:hover
+{
+    background-color: var(--lightGreen);
+    border-color: var(--lightGreen);
+}
+
+
+/* ___________________________main_________________________________ */
+/* ^^^^^^^^^^^^^^^^^index.html^^^^^^^^^^^^^^^^^^ */
+
+
+
+/* ---------------------- section one ---------------------------- */
+
+.section-one
+{
+    margin: 40px 0;
+    min-height: 100vh;
+}
+
+.sec-one-left
+{
+    height: 100vh;
+    background: url("../same_dim/main.jpg") center/cover no-repeat;
+    box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.75);
+
+}
+.sec-one-left div{
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+}
+.sec-one-left div h3{
+    font-size: 28px;
+    opacity: 0.9;
+}
+
+.sec-one-left div p{
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.sec-one-right h3{
+    color: var(--darkgray);
+}
+
+.sec-one-right >h3
+{
+    text-align: center;
+}
+.sec-one-right p{
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+.work-content{
+    margin: 50px 0;
+}
+
+.work-imgs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.work-img-1{
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.6)),url("../same_dim/porject-1.jpg") center/cover no-repeat;
+    height: 400px;
+    transition: var(--transition);
+    margin: auto 30px;
+}
+.work-img-2{
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.6)),url('../same_dim/porject-2.jpg') center/cover no-repeat;
+    height: 400px;
+    transition: var(--transition);
+}
+.work-imgs div :hover{
+    box-shadow: 0 0 8px #0000 ;
+    -webkit-box-shadow: 0 0 8px #0000  ;
+    -moz-box-shadow: 0 0 8px #0000 ;
+}
+
+/* ---------------------- section one end ---------------------------- */
+
+
+
+/* ---------------------- section two ---------------------------- */
+.section-two{
+    margin: 40px 0;
+}
+.section-two h2{
+    text-align: center;
+    font-size: 40px;
+}
+.section-two span{
+    text-align: center;
+    display: block;
+    color: var(--darkgray);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+ .insta-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.insta-images > div{
+    position: relative;
+}
+.icon-overlay.flex{
+    position: absolute;
+    top: 0;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    background: rgba(134,194,50,0.4);
+    opacity: 0;
+    transition: var(--transition);
+
+}
+.insta-images > div:hover .icon-overlay.flex{
+    opacity: 1;
+}
+
+
+
+/* ---------------------- section two ---------------------------- */
+
+/* ^^^^^^^^^^^^^^^^^end index.html^^^^^^^^^^^^^^^^^^ */
+
+
+
+/* footer */
+.footer
+{
+    background: var(--dark);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+.footer-container > div{
+    margin:40px 0;
+}
+.footer-container h2{
+    color: var(--lightGreen);
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 7px;
+}
+.footer-container p{
+    opacity: 0.7;
+}
+.subs{
+    background: #000;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+.subs i{
+    font-size: 26px;
+    flex:10%;
+    display:block;
+}
+.subs input{
+    flex: 60%;
+    background: transparent;
+    font-size: 16px;
+    border: none;
+    padding: 0 5px;
+    outline: 0;
+    color: #fff;
+}
+.subs button{
+    flex: 30%;
+    font-size: 16px;
+    padding: 15px 0;
+    font-weight: bold;
+    background: var(--lightGreen);
+    border: none;
+    transition: var(--transition);
+    cursor: pointer;
+    letter-spacing: 1px;
+
+}
+.subs button:hover{
+    color: #fff;
+    background: var(--darkGreen);
+}
+
+.footer > p{
+    text-align: center;
+    font-size: 16px;
+    
+    /* background-color: cornflowerblue; */
+}
+/* footer */ 
+
+
