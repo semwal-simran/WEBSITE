@@ -14,3 +14,7 @@ showBtn.addEventListener('click',function(){
 });
 
 console.log("Hello");
+
+
+// Lightbox
+var lightbox = new SimpleLightbox('.gallery a', { });

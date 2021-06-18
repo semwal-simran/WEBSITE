@@ -1,0 +1,51 @@
+.section-five{
+    margin: 40px 0;
+}
+.section-five .container .div{
+    margin: 20px 0;
+}
+.contact-top{
+    text-align: center;
+    font-weight: bold;
+}
+.contact-top h3{
+    font-size: 32px;
+}
+.contact-top p{
+    width: 70%;
+    margin: 0 auto;
+}
+.contact-middle div{
+    text-align: center;
+    padding: 25px 0;
+    background: #000;
+    margin: 10px 0;
+    color: #fff;
+}
+.contact-middle div span{
+    display: block;
+}
+.contact-icon{
+    font-size: 30px;
+}
+
+#phone{
+    font-size: 42px;
+    font-weight: bold;
+}
+.contact-bottom{
+    margin-top: 50px!important;
+}
+.form input[type="text"], .form input[type="email"], .form textarea{
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 2px solid #86c232;
+    outline: none;
+    border-radius: 5px;
+
+}
+.contact-bottom .form{
+    padding: 0 20px;
+}

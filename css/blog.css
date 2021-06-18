@@ -1,0 +1,53 @@
+/* Blog.html */
+:root
+{
+    --white: #ddd;
+    --dark: #111;
+    --darkgray: #474b4f;
+    --lightGreen: #86c232;
+    --darkGreen: #61892f;
+    --transition: all 0.5s ease;
+
+
+
+}
+/* Section Four */
+.section-four{
+    margin: 40px 0;
+
+}
+.blog{
+    margin: 40px 0;
+}
+.blog-content{
+    padding: 25px 0;
+    background: #f7f7f7;
+}
+.blog span{
+    display: block;
+}
+.badge{
+    background: #86c232;
+    width: 140px;
+    border-radius: 5px;
+    padding: 5px 0;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.misc-text{
+    font-size: 14px;
+    color: var(--dark);
+}
+.blog-title{
+    font-size: 20px;
+    font-weight: 900;
+}
+.blog-text{
+    font-weight: 300;
+}
+
+
+
+
+
