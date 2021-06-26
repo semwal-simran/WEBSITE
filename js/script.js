@@ -18,3 +18,8 @@ console.log("Hello");
 
 // Lightbox
 var lightbox = new SimpleLightbox('.gallery a', { });
+
+function message(){
+    msg="Subscription successful";
+    alert(msg);
+}
