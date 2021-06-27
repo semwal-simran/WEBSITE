@@ -23,21 +23,24 @@ var firebaseConfig = {
     //   Get input Values
     let name = document.getElementById("name").value;
     let email = document.getElementById("email").value;
+    let subject = document.getElementById("sub").value;
     let message = document.getElementById("msg").value;
-    console.log(name, email, message);
+    console.log(name, email, subject, message);
   
-    saveContactInfo(name, email, message);
+    saveContactInfo(name, email, subject, message);
   
-    document.querySelector(".container").reset();
+    document.getElementById("MyForm").reset();
+}
   }
   
   // Save infos to Firebase
-  function saveContactInfo(name, email, message) {
+  function saveContactInfo(name, email, subject, message) {
     let newContactInfo = contactInfo.push();
   
     newContactInfo.set({
       name: name,
       email: email,
+      subject: subject,
       message: message,
     });
   }
