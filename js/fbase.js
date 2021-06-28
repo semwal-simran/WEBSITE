@@ -31,8 +31,7 @@ var firebaseConfig = {
   
     document.getElementById("MyForm").reset();
 }
-  }
-  
+
   // Save infos to Firebase
   function saveContactInfo(name, email, subject, message) {
     let newContactInfo = contactInfo.push();
